@@ -1,0 +1,51 @@
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\Earthquake Analyzer.exe.config
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\Earthquake Analyzer.exe
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\Earthquake Analyzer.pdb
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\Earthquake Analyzer.xml
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\ControlzEx.dll
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\MahApps.Metro.dll
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\Microsoft.WindowsAPICodePack.dll
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\Microsoft.Xaml.Behaviors.dll
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\MigraDoc.DocumentObjectModel-gdi.dll
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\MigraDoc.Rendering-gdi.dll
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\MigraDoc.RtfRendering-gdi.dll
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\OxyPlot.dll
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\OxyPlot.Pdf.dll
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\OxyPlot.Wpf.dll
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\PdfSharp-gdi.dll
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\PdfSharp.Charting-gdi.dll
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\ControlzEx.pdb
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\ControlzEx.xml
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\MahApps.Metro.pdb
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\MahApps.Metro.xml
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\Microsoft.WindowsAPICodePack.xml
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\Microsoft.WindowsAPICodePack.Shell.xml
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\Microsoft.Xaml.Behaviors.pdb
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\Microsoft.Xaml.Behaviors.xml
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\MigraDoc.DocumentObjectModel-gdi.xml
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\MigraDoc.Rendering-gdi.xml
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\MigraDoc.RtfRendering-gdi.xml
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\OxyPlot.xml
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\OxyPlot.Pdf.xml
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\OxyPlot.Wpf.xml
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\PdfSharp-gdi.xml
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\PdfSharp.Charting-gdi.xml
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\de\MigraDoc.DocumentObjectModel-gdi.resources.dll
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\de\MigraDoc.Rendering-gdi.resources.dll
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\de\MigraDoc.RtfRendering-gdi.resources.dll
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\de\PdfSharp-gdi.resources.dll
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\bin\Release\de\PdfSharp.Charting-gdi.resources.dll
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\obj\Release\MainWindow.g.vb
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\obj\Release\Application.g.vb
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\obj\Release\Earthquake Analyzer_MarkupCompile.cache
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\obj\Release\Earthquake Analyzer_MarkupCompile.lref
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\obj\Release\Application.baml
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\obj\Release\MainWindow.baml
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\obj\Release\Earthquake Analyzer.g.resources
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\obj\Release\Earthquake_Analyzer.Resources.resources
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\obj\Release\Earthquake Analyzer.vbproj.GenerateResource.cache
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\obj\Release\Earthquake Analyzer.vbproj.CopyComplete
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\obj\Release\Earthquake Analyzer.exe
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\obj\Release\Earthquake Analyzer.xml
+D:\Temp Files\real eq\Earthquake Analyzer\Earthquake Analyzer\obj\Release\Earthquake Analyzer.pdb

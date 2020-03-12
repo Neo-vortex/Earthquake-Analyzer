@@ -1,0 +1,81 @@
+﻿<Controls:MetroWindow
+    xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls" x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Earthquake_Analyzer"
+    xmlns:oxy="http://oxyplot.org/wpf"
+    mc:Ignorable="d"
+        Title="Earthquake Analyzer" Height="626.6" Width="1029.115" TitleCharacterCasing="Normal" >
+    <Grid>
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="23" Margin="50,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="802" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="8,20,0,0" TextWrapping="Wrap" Text="Folder: " VerticalAlignment="Top"/>
+        <Button Content="Browse" HorizontalAlignment="Left" Margin="857,13,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" RenderTransformOrigin="2.205,4.537"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="58" Margin="8,524,0,0" VerticalAlignment="Top" Width="1004">
+            <ProgressBar x:Name="progress" HorizontalAlignment="Left" Height="9" VerticalAlignment="Top" Width="984" Margin="9.2,37.2,0,0 "/>
+        </Border>
+        <TextBlock x:Name="status" HorizontalAlignment="Left" Margin="15,534,0,0" TextWrapping="Wrap" Text="Ready" VerticalAlignment="Top" RenderTransformOrigin="4.4,-9.944"/>
+        <TabControl x:Name="tabs" HorizontalAlignment="Left" Height="459" Margin="10,58,0,0" VerticalAlignment="Top" Width="1002" IsEnabled="False">
+            <TabItem Header="X Axis" IsSelected="True">
+                <Grid Background="#FFE5E5E5">
+                    <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="356" Margin="10,12,0,0" VerticalAlignment="Top" Width="976">
+                        <oxy:PlotView x:Name="plot1" Margin="9.2,9.2,9.4,9.6" Background="{x:Null}" />
+                    </Border>
+                    <TextBlock x:Name="minmax1" HorizontalAlignment="Left" Margin="10,373,0,0" TextWrapping="Wrap" Text="Max -Min=" VerticalAlignment="Top" Foreground="Black"/>
+                    <Button x:Name="save1" Content="Save Plot" HorizontalAlignment="Left" Margin="466,379,0,0" VerticalAlignment="Top" Width="71" Height="17" Click="Button_Click_2"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Y Axis">
+                <Grid Background="#FFE5E5E5">
+                    <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="360" Margin="10,12,0,0" VerticalAlignment="Top" Width="976">
+                        <oxy:PlotView x:Name="plot2" Margin="9.2,9.2,9.4,9.6" Background="{x:Null}" />
+                    </Border>
+                    <TextBlock x:Name="minmax2" HorizontalAlignment="Left" Margin="10,377,0,0" TextWrapping="Wrap" Text="Max-Min=" VerticalAlignment="Top" Foreground="Black"/>
+                    <Button x:Name="save2" Content="Save Plot" HorizontalAlignment="Left" Margin="487,379,0,0" VerticalAlignment="Top" Width="71" Height="17"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Z axis" HorizontalAlignment="Left" Height="39.2" VerticalAlignment="Top" Width="105.6">
+                <Grid Background="#FFE5E5E5">
+                    <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="362" Margin="10,12,0,0" VerticalAlignment="Top" Width="976">
+                        <oxy:PlotView x:Name="plot3" Margin="9.2,9.2,9.4,9.6" Background="{x:Null}" />
+                    </Border>
+                    <TextBlock x:Name="minmax3" HorizontalAlignment="Left" Margin="10,379,0,0" TextWrapping="Wrap" Text="Max-Min=" VerticalAlignment="Top" Foreground="Black"/>
+                    <Button x:Name="save3" Content="Save Plot" HorizontalAlignment="Left" Margin="515,379,0,0" VerticalAlignment="Top" Width="71" Height="17"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="All in One X" HorizontalAlignment="Left" Height="39" VerticalAlignment="Top" Width="155" Margin="0,-0.2,0,0">
+                <Grid Background="#FFE5E5E5">
+                    <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="360" Margin="10,12,0,0" VerticalAlignment="Top" Width="976">
+                        <oxy:PlotView x:Name="plot4" Margin="9.2,9.2,9.4,9.6" Background="{x:Null}" />
+                    </Border>
+                    <Button Content="Save Plot" HorizontalAlignment="Left" Margin="495,377,0,0" VerticalAlignment="Top" Width="71" Click="Button_Click_3"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Single Mean X" HorizontalAlignment="Left" Height="39" VerticalAlignment="Top" Width="163" IsSelected="True" Margin="0.4,0,-57.8,0">
+                <Grid Background="#FFE5E5E5" Margin="0,0,0.2,0.4">
+                    <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="360" Margin="10,12,0,0" VerticalAlignment="Top" Width="976">
+                        <oxy:PlotView x:Name="plot5" Margin="9.2,9.2,9.4,9.6" Background="{x:Null}" />
+                    </Border>
+                    <Button x:Name="save4" Content="Save Plot" HorizontalAlignment="Left" Margin="463,377,0,0" VerticalAlignment="Top" Width="71"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Repeated Mean X" HorizontalAlignment="Left" Height="39" VerticalAlignment="Top" Width="203" Margin="0.2,-0.2,0,0">
+                <Grid Background="#FFE5E5E5" Margin="0,0,0.2,0.4">
+                    <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="360" Margin="10,12,0,0" VerticalAlignment="Top" Width="976">
+                        <oxy:PlotView x:Name="plot6" Margin="9.2,9.2,9.4,9.6" Background="{x:Null}" />
+                    </Border>
+                    <Button x:Name="save5" Content="Save Plot" HorizontalAlignment="Left" Margin="468,377,0,0" VerticalAlignment="Top" Width="71"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Reduced X" HorizontalAlignment="Left" Height="39.2" VerticalAlignment="Top" Width="153.6">
+                <Grid Background="#FFE5E5E5">
+                    <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="368" Margin="10,12,0,0" VerticalAlignment="Top" Width="976">
+                        <oxy:PlotView x:Name="plot7" Margin="9.2,9.2,9.4,9.6" Background="{x:Null}" />
+                    </Border>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Button Content="Process" HorizontalAlignment="Left" Margin="937,13,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+    </Grid>
+</Controls:MetroWindow>
